@@ -172,7 +172,7 @@ nmap -sn 10.233.106.0/24
 | `10.233.106.112` | Up (0.011s latency) · MAC `EE:E8:82:A7:07:9E` (vendor unknown) |
 | `10.233.106.234` | Up · no MAC address displayed |
 
-![Zenmap ping scan](Screenshot_2026-11-08_180912.png)
+![Zenmap ping scan](Zenmappingscan.png)
 
 ### 🗺️ Network Topology
 
