@@ -95,9 +95,9 @@ whois networkwalks.com
 
 Registrar is GoDaddy.com, LLC. The domain was created on 2019-11-06 and expires on 2027-11-06. Name servers are `NS6135.HOSTGATOR.COM` and `NS6136.HOSTGATOR.COM`. DNSSEC is unsigned. The registrant is privacy-protected (Domains By Proxy, LLC).
 
-![WHOIS 1](screenshots/whois-1.png)
+![WHOIS 1](s1.png)
 
-![WHOIS 2](screenshots/whois-2.png)
+![WHOIS 2](s2.png)
 
 ### 🕸️ WhatWeb
 
@@ -107,7 +107,7 @@ whatweb networkwalks.com
 
 Apache, **WordPress 7.1.4**, **WP Download Manager 3.3.76**, jQuery 3.7.1, Bootstrap and Google Tag Manager. Site title is "Networkwalks Academy".
 
-![WhatWeb](screenshots/whatweb.png)
+![WhatWeb](s3.png)
 
 ### 📍 Nslookup
 
@@ -117,7 +117,7 @@ nslookup networkwalks.com
 
 `networkwalks.com` resolves to `192.232.216.135`.
 
-![Nslookup](screenshots/nslookup.png)
+![Nslookup](s4.png)
 
 ### 📨 Curl
 
@@ -135,7 +135,7 @@ wafw00f networkwalks.com
 
 The site is protected by a **ModSecurity (SpiderLabs)** WAF.
 
-![Wafw00f](screenshots/wafw00f.png)
+![Wafw00f](s6.png)
 
 ### 🌐 DNSRecon
 
@@ -145,7 +145,7 @@ dnsrecon -d networkwalks.com
 
 SOA/NS records at hostgator.com, BIND version `9.16.23-RH`, MX `mail.networkwalks.com`, A record `192.232.216.135`, SPF and Google verification TXT records, and 8 cPanel SRV autodiscover records.
 
-![DNSRecon](screenshots/dnsrecon.png)
+![DNSRecon](s7.png)
 
 ---
 
@@ -172,13 +172,13 @@ nmap -sn 10.233.106.0/24
 | `10.233.106.112` | Up (0.011s latency) · MAC `EE:E8:82:A7:07:9E` (vendor unknown) |
 | `10.233.106.234` | Up · no MAC address displayed |
 
-![Zenmap ping scan](screenshots/zenmap-ping-scan.png)
+![Zenmap ping scan](Screenshot_2026-11-08_180912.png)
 
 ### 🗺️ Network Topology
 
 The topology was generated in the Zenmap **Topology** tab with the legend enabled and saved as a PDF. It shows both hosts connected to `localhost`.
 
-![Zenmap topology](screenshots/zenmap-topology.png)
+📎 [View topology PDF](Zenmap.pdf)
 
 ---
 
@@ -228,15 +228,14 @@ The topology was generated in the Zenmap **Topology** tab with the legend enable
 .
 ├── README.md
 ├── W2-PM-FINAL_Report_Abhinav_Sadanandan_Nair.pdf   # Full report with evidence
-└── screenshots/
-    ├── whois-1.png
-    ├── whois-2.png
-    ├── whatweb.png
-    ├── nslookup.png
-    ├── wafw00f.png
-    ├── dnsrecon.png
-    ├── zenmap-ping-scan.png
-    └── zenmap-topology.png
+├── s1.png                                           # WHOIS (1)
+├── s2.png                                           # WHOIS (2)
+├── s3.png                                           # WHOIS terms + WhatWeb
+├── s4.png                                           # Nslookup
+├── s6.png                                           # Wafw00f
+├── s7.png                                           # DNSRecon
+├── Screenshot_2026-11-08_180912.png                 # Zenmap ping scan
+└── Zenmap.pdf                                       # Zenmap topology
 ```
 
 📄 **[Read the full report (PDF)](W2-PM-FINAL_Report_Abhinav_Sadanandan_Nair.pdf)**
