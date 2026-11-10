@@ -126,6 +126,7 @@ curl -I https://networkwalks.com
 ```
 
 HTTP/2 200 response. The headers expose the WordPress REST API endpoint `/wp-json/`, plus `x-nginx-cache`, `x-endurance-cache-level` and `server: Apache`.
+![](s5.png)
 
 ### 🧱 Wafw00f
 
